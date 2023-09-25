@@ -80,7 +80,7 @@
   <body>
     <div class="sidebar">
     <h1 class="text-white">Aplikasi Sekolah</h1>
-    <div class="asd" ><img src="wikrama-logo.png" alt="logo wk" width='100'></div class="justify-content-center"> 
+    <div class="asd" ><img src="../php_siswa/gambardashboard/wikrama-logo.png" alt="logo wk" width='100'></div class="justify-content-center"> 
       <br>
       <?php
         // Cek apakah pengguna sudah login
@@ -100,7 +100,7 @@
       <a href="nilai.php">Nilai</a>
       <a href="jurusan.php">Jurusan</a>
       <br><br><br><br>
-      <a href="index.html"><i class="bi bi-box-arrow-left"></i>keluar</a>
+      <a href="logout.html"><i class="bi bi-box-arrow-left"></i>keluar</a>
       <br><br><br>
       <div class="asd text-white"><i class="bi bi-c-circle text-white"></i>Arviansyah</div>
     </div>
@@ -116,7 +116,7 @@
         <div class="card-body">
           <h5 class="card-title">Ingin tahu sejarah SMK Wikrama Bogor?</h5>
           <p class="card-text">Informasi tentang Wikrama di sini.</p>
-          <a href="wk.html" class="btn btn-primary">Lihat</a>
+          <a href="sejarah.html" class="btn btn-primary">Lihat</a>
         </div>
       </div>
     </div>

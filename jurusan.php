@@ -28,7 +28,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item btn btn-sm btn-danger opacity-85">
-                    <a class="nav-link" href="logout.php" style="font-weight: bold;">Logout</a>
+                    <a class="nav-link" href="dashboard.php" style="font-weight: bold;">Kembali Ke Dashboard</a>
                 </li>
             </ul>
         </div>
