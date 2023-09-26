@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siswa</title>
+    <title>Tambah</title>
 </head>
 <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
 
 <body>
     <div class="container col-md-6 mt-4">
-        <h1 class="text-center">Tabel Siswa</h1>
+        <h1 class="text-center">Tabel Tambah</h1>
         <div class="card">
-            <div class="card-header bg info text-white">
+            <div class="card-header bg-info text-white">
                 Tambah 
             </div>
             <div class="card-body">
