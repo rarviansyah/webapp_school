@@ -41,6 +41,7 @@
         <div class="card">
             <div class="card-header bg-dark text-white text-center">
                 Data Jurusan Siswa 
+                <a href="tambah.php" class="btn btn-sm btn-success ms-2">Tambah Jurusan</a>
             </div>
             <div class="siswa-body p-3 mb-2 bg-success-subtle text-emphasis-succes">
                 <table class="table table-bordered">

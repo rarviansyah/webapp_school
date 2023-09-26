@@ -9,14 +9,23 @@
     <style>
       /* Gaya Navbar Samping */
 
+      body {
+      background-image: url('lapangaan.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      font-family: Arial, sans-serif;
+    }
+
       .sidebar {
         height: 100%;
         width: 250px;
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #333;
+        background-color: #0078d4;
         padding-top: 20px;
+        align-items: center;
       }
 
       .sidebar a {
@@ -26,23 +35,36 @@
         font-size: 18px;
         color: white;
         display: block;
+        align-items: center;
+      }
+
+      .sidebar a i{
+        margin-right: 10px;
       }
 
       .sidebar a:hover {
-        background-color: #444;
+        background-color: black;
       }
 
       .sidebar h1 {
         text-align: center;
         font-size: 15;
         font-family: italic;
+        margin-bottom: 20px; 
       }
 
-      .asj h1,p{
-        /* text-align:center; */
-        font-size:35px;
+      .asj h1, .asj h2{
+        text-align: center;
+        color: whitesmoke;
+      }
+
+      .asj{
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        margin-left: 250px;
+        /* height: 100vh; */
       }
 
       .asd{
@@ -51,23 +73,19 @@
 
       .container{
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
+        flex-direction: column;
       }
 
       .card {
-        width: 800px; /* Lebar kotak */
+        width: 800px;
         margin: 15px;
-        display: inline-block; /* Membuat kotak berdampingan */
         text-align: center;
       }
       .card-body {
         padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Tautan di tengah secara horizontal */
-        justify-content: center; /* Tautan di tengah secara vertikal */
-        height: 100%; /* Membuat konten di dalam kotak penuh tinggi */
+        /* justify-content: right; */
       }
       .card-title{
         display: flex;
@@ -82,36 +100,30 @@
     <h1 class="text-white">Aplikasi Sekolah</h1>
     <div class="asd" ><img src="../php_siswa/gambardashboard/wikrama-logo.png" alt="logo wk" width='100'></div class="justify-content-center"> 
       <br>
-      <?php
-        // Cek apakah pengguna sudah login
-        // Gantilah kondisi berikut sesuai dengan cara Anda melakukan autentikasi
-        $loggedIn = false; // Contoh: pengguna belum login
-
-        if ($loggedIn) {
-            // Jika pengguna sudah login, tampilkan tautan ke halaman Siswa, Nilai, dan Jurusan
-            echo '<a href="index.php">Siswa</a>';
-            echo '<a href="nilai.php">Nilai</a>';
-            echo '<a href="jurusan.php">Jurusan</a>';
-        } else {
-            // Jika pengguna belum login, tampilkan tautan ke halaman Login
-        }
-        ?>
       <a href="index.php"><i class="bi bi-people"></i>Siswa</a>
       <a href="nilai.php">Nilai</a>
       <a href="jurusan.php">Jurusan</a>
-      <br><br><br><br>
+      <br>
       <a href="logout.html"><i class="bi bi-box-arrow-left"></i>keluar</a>
-      <br><br><br>
-      <div class="asd text-white"><i class="bi bi-c-circle text-white"></i>Arviansyah</div>
+      <br><br>
+      <div class="asd text-white">
+  <div style="display: flex; align-items: center; justify-content:center">
+    <i class="bi bi-person-circle" style="font-size: 20px; margin-right: 5px;"></i>
+    <span style="font-size: 15px;"><a href="https:/wa.me/+6281210691045">Kontak</a></span>
+  </div>
+  <div style="display: flex; align-items: center; justify-content:center">
+    <i class="bi bi-instagram" style="font-size: 20px; margin-right: 5px;"></i>
+    <span style="font-size: 15px;"><a href="https://www.instagram.com/wrarviansyahh/">Instagram</a></span>
+  </div>
+</div>
     </div>
 
     <div class="asj">
-      <h1 class="text-dark">Selamat Datang Di Website SMK Wikrama Bogor</h1>
-      <p>Tidak ada apa apa disini hehe..</p>
+      <h1>Selamat Datang Di Website SMK Wikrama Bogor</h1>
+      <h2>Tidak ada apa apa disini hehe..</h2>
     </div>
-        <hr>
-
     <div class="container">
+      <div class="col-md-6">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Ingin tahu sejarah SMK Wikrama Bogor?</h5>
@@ -119,26 +131,31 @@
           <a href="sejarah.html" class="btn btn-primary">Lihat</a>
         </div>
       </div>
+      </div>
     </div>
 
     <div class="container">
+    <div class="col-md-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Ingin mengetahui Berapa Jumlah Siswa SMK Wikrama Bogor?</h5>
+          <h5 class="card-title">Ingin tahu Berapa Jumlah Siswa SMK Wikrama Bogor?</h5>
           <p class="card-text">Informasi tentang Siswa di sini.</p>
           <a href="wikrama.html" class="btn btn-primary">Lihat</a>
         </div>
       </div>
+      </div>
     </div>
 
     <div class="container">
+    <div class="col-md-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Ingin mengetahui berapa jumlah jurusan SMK Wikrama Bogor?</h5>
+          <h5 class="card-title">Ingin tahu berapa jumlah jurusan SMK Wikrama Bogor?</h5>
           <p class="card-text">Informasi tentang jurusan di sini.</p>
           <a href="jrs.html" class="btn btn-primary">Lihat</a>
         </div>
       </div>
+    </div>
     </div>
   </body>
 </html>
