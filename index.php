@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siswa</title>
     <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="../php_siswa/gambardashboard/logo.png">
 </head>
 
 <body>
@@ -51,7 +52,7 @@
                         Data Siswa
                         <a href="tambah.php" class="btn btn-sm btn-success ms-2">Tambah Siswa</a>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body bg-success-subtle text-emphasis-succes">
                         <table class="table table-bordered">
                             <thead>
                                 <tr>

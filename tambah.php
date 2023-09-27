@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah</title>
+    <link rel="icon" type="image/png" href="../php_siswa/gambardashboard/logo.png">
 </head>
 <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
 

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css" />
+    <link rel="icon" type="image/png" href="../php_siswa/gambardashboard/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
       /* Gaya Navbar Samping */
@@ -49,7 +50,7 @@
       .sidebar h1 {
         text-align: center;
         font-size: 15;
-        font-family: italic;
+        font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 20px; 
       }
 
@@ -99,23 +100,18 @@
     <div class="sidebar">
     <h1 class="text-white">Aplikasi Sekolah</h1>
     <div class="asd" ><img src="../php_siswa/gambardashboard/wikrama-logo.png" alt="logo wk" width='100'></div class="justify-content-center"> 
-      <br>
       <a href="index.php"><i class="bi bi-people"></i>Siswa</a>
       <a href="nilai.php">Nilai</a>
       <a href="jurusan.php">Jurusan</a>
       <br>
       <a href="logout.html"><i class="bi bi-box-arrow-left"></i>keluar</a>
-      <br><br>
+      <br>
       <div class="asd text-white">
-  <div style="display: flex; align-items: center; justify-content:center">
-    <i class="bi bi-person-circle" style="font-size: 20px; margin-right: 5px;"></i>
-    <span style="font-size: 15px;"><a href="https:/wa.me/+6281210691045">Kontak</a></span>
-  </div>
-  <div style="display: flex; align-items: center; justify-content:center">
-    <i class="bi bi-instagram" style="font-size: 20px; margin-right: 5px;"></i>
-    <span style="font-size: 15px;"><a href="https://www.instagram.com/wrarviansyahh/">Instagram</a></span>
-  </div>
-</div>
+        <a href="https:/wa.me/+6281210691045"><i class="bi bi-person-circle"></i>Kontak</a>
+        <a href="https://www.instagram.com/wrarviansyahh/"><i class="bi bi-instagram"></i>Instagram</a>
+      <br>
+      <p class="text-white"><i class="bi bi-c-circle"></i>Arviansyahwr</p>
+      </div>
     </div>
 
     <div class="asj">
@@ -126,7 +122,7 @@
       <div class="col-md-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Ingin tahu sejarah SMK Wikrama Bogor?</h5>
+          <h5 class="card-title"> <i class="bi bi-hourglass-split"></i>Ingin tahu sejarah SMK Wikrama Bogor? </h5><hr>
           <p class="card-text">Informasi tentang Wikrama di sini.</p>
           <a href="sejarah.html" class="btn btn-primary">Lihat</a>
         </div>
@@ -138,7 +134,7 @@
     <div class="col-md-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Ingin tahu Berapa Jumlah Siswa SMK Wikrama Bogor?</h5>
+          <h5 class="card-title"><i class="bi bi-people"></i>Ingin tahu Berapa Jumlah Siswa SMK Wikrama Bogor?</h5><hr>
           <p class="card-text">Informasi tentang Siswa di sini.</p>
           <a href="wikrama.html" class="btn btn-primary">Lihat</a>
         </div>
@@ -150,7 +146,7 @@
     <div class="col-md-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Ingin tahu berapa jumlah jurusan SMK Wikrama Bogor?</h5>
+          <h5 class="card-title"><i class="bi bi-list-ol"></i>Ingin tahu berapa jumlah jurusan SMK Wikrama Bogor?</h5><hr>
           <p class="card-text">Informasi tentang jurusan di sini.</p>
           <a href="jrs.html" class="btn btn-primary">Lihat</a>
         </div>

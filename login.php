@@ -15,6 +15,7 @@ if(isset($_POST['submit'])){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aplikasi Sekolah - Login</title>
   <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="../php_siswa/gambardashboard/logo.png">
   <style>
     body {
       background-image: url('depanwk.png'); 

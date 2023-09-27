@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../php_siswa/gambardashboard/logo.png">
     <title>Edit</title>
 </head>
 <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
@@ -34,7 +35,6 @@
                         <label for="nama">Nama</label>
                         <select name="nama" id="nama" class="form-control" required>
                             <option value="">Pilih satu</option>
-                            <!-- <option value="Arvi">Arvi</option> -->
                             <option value="Taupik">Taupik</option>
                             <option value="Fadil">Fadil</option>
                             <option value="Awal">Awal</option>
